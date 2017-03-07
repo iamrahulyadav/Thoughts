@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-1adc12b6e47bb1fcac7e487540eca1f019284875.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-25fcb6daa53d5a1147ea928ab9566d45cd95fe3c.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\Thoughts\facebookSDK\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0816e4325435586117a1499035adf4f923b60101">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-fd1003cbbd1f7460dff41a93a5bd81d6c11ff470.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-2348f9a8b5287ee84995521ebf84790808e3bcf9.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-15eb209c4e30aee105118bc94b5f458f9b1b4f6e.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-b17fea85d7e6fb3e1d2ce94db07f4aa5315abb5c.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-0027f5c027aab8a0ef45af748407d597b0aebe04.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-a0f2b7f5722ac97f70ec0795765fd512c2182db0.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-bdda7196ac5b77aeb55fa9d3c0c19a49f2e20895.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-9e5b7b2bdfc429e7cadbf7705f0f133821d79245.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-d1b011f3eb8ff6aa257e8013bd3db5971b8c4bb9.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-a0d54267c1fb5e39cbe21ba817a6ee910a5ace86.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-0f8756df4f522bec886663a802c51d89f85e812e.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-d62182be240cd8644b30018be76f35564360b03d.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-5076b6a3dfcdc92e99462c02876db256b350bc60.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\libs\com-mqnvnfx-itwsdvr70223.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="bd4641bba4e144543f3822a7e0fe14c11c140f7e">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\com-mqnvnfx-itwsdvr70223-7c53433d4fc68418767933bbbe6017e05a88006b.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-7d8bfb27dc2a0b28cb36b4e092c61fea3b3efbc0.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-29beb5a31dee9dba3af6d7775cd159b248779c06.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-d338efd332c675afac8c75a50d5f5dbfc77f2518.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-40f63f35fea2c555dc4cebcb2c96746a8e96b0b4.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-ac6ef1320cebfd219a7c8a7c5c55bd0297888efa.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-0c5bd16ab949257ab031e5bb6dd1df2685a962c0.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-a72bb7d8eb9705d4c27e0aae49dc79e2e15b03ea.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-b6daa821a77db5d89af04e9d4a325b291ab44a14.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-233c59b66f93de627aa249ba0ea46b79c43eabfe.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-ec35ef9cdaebd582fcf31513e748830ffcc90ce2.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-e183e98b6a990706b0c3c5fd37f1d9516c0c1cdc.jar" />
+    </item>
+    <item
+        jar="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="F:\Rudrik\GRADLE\Thoughts\thoughts\build\intermediates\pre-dexed\debug\classes-df08f9cedf8a169299e688d34dda5f982741c62a.jar" />
+    </item>
+
+</items>

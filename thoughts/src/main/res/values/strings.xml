@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thoughts</string>
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Titles of activity -->
+    <string name="HeaderTextMainListingRecent">Recent</string>
+    <string name="HeaderTextMainListingPopular">Most popular</string>
+    <string name="HeaderTextMainListingFavorites">My favourites</string>
+    <string name="HeaderTextMainSubHeader">Thoughts</string>
+    <string name="HeaderTextAboutHeader">About the app</string>
+    <string name="HeaderTextAboutSubheader"> Thoughts</string>
+    <string name="AboutThisAppText">This application has collection of Positive Thinking Quotes that will build your inner strength and help you grow mentally and spiritually so that you can live a successful and optimistic life.\n\n
+        Studies have shown that positive thinking can help with stress management and better health, two very important components that are needed to move through life with energy and enthusiasm.</string>
+    <!-- Server and application details -->
+    <string name="ServicePath">http://likebit.com/rudrik/r3_thoughts.php</string>
+    <string name="LogoPath">http://likebit.com/rudrik/logo.png</string>
+    <string name="ListPageSize">10</string>
+    <string name="SharePreferenceName">Thoughts</string>
+    <!-- Share and support settings -->
+    <!-- This fields are diplayed on Alert box to describe support before opening a mail client -->
+    <string name="AppSupportPopupTitle">Feedback</string>
+    <string name="AppSupportPopupDescription">Thank you for using our App. If you\'ve got any nice things to say, we\'d love to hear your comments.\n\nOr, if there\'s a problem, we\'re really sorry but please let us know and we\'ll try to sort it out.</string>
+    <!-- Actual support parameters -->
+    <string name="AppSupportEmailAddress">rudrik.patel@gmail.com</string>
+    <string name="AppSupportEmailSubject">Thoughts (Feedback Android)</string>
+    <string name="ShareAppWithFriendsSubject">Thoughts</string>
+    <string name="ShareAppWithFriendsText">I found a great positive Thoughts app for android.</string>
+    <!-- Market URL details -->
+    <string name="MarketLocationForReview">market://details?id=com.r3Tech.Thoughts</string>
+    <string name="MarketLocationShort">market://details?id=com.r3Tech.Thoughts</string>
+    <string name="MarketLocationLong">https://play.google.com/store/apps/details?id=com.r3Tech.Thoughts</string>
+    <!--
+    	** Short and long market URLs are used in Application Sharing (Via email or SMS or Facebook)
+    	** If both links are same, then only one link is displayed on sharing option.
+    	** If both are different, both are shown in sharing option.
+    
+    	Play SHORT:
+    	Play:
+    	Amazon:
+    	GetJar:
+    	Opera:
+    	
+    	BIT.LY s for above URLS.
+    	
+    	Play:
+    	Amazon:
+    	GetJar:
+    	Opera:
+
+
+
+    -->
+    <!-- System messages -->
+    <string name="NoConnectionError">Can not find active internet connection. Check your device\'s settings and try again.</string>
+    <string name="NoEmailClientInstalled">Your device is not configured to send Emails.</string>
+    <string name="NoDataFoundError">No data to show.</string>
+    <string name="UnknowntError">Error occurred while processing your request. Please try again.</string>
+    <string name="PleaseWait">Loading data, please wait.</string>
+    <string name="PostFaved">Post added to your favorite list.</string>
+    <string name="PostNoFaved">Post removed from your favorite list.</string>
+    <string name="PostLiked">You liked the post.</string>
+
+    <!--Social Media-->
+    <string name="fb_app_id">560884510699284</string>
+    <string name="fb_share_success">Post is shared on your facebook time line.</string>
+
+
+
+    <string name="category">Category</string>
+    <!--<string name="category_string">CategoryString</string>-->
+    <string name="are_you_sure_want_to_exit">Are you sure want to exit?</string>
+</resources>

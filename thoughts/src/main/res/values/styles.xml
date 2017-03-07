@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Colors -->
+    <color name="Transparent">#00000000</color>
+    <color name="HeaderTitleTextColor">#ff323232</color>
+    <color name="HeaderSubTitleTextColor">#323232</color>
+    <color name="RegularTextColor">#323232</color>
+    <color name="white">#ffffff</color>
+    <color name="TranslucentWhite">#eeffffff</color>
+
+    <!-- Main Theme -->
+    <!-- <style name="MyTheme" parent="@android:style/Theme.Holo.Light.NoActionBar"></style> -->
+    <style name="MyTheme" parent="Theme.AppCompat.Light"/>
+
+    <style name="MyTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+
+    <!-- Background Image -->
+    <style name="BackImage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <!-- <item name="android:scaleType">fitCenter</item> -->
+        <item name="android:background">@drawable/back1</item>
+    </style>
+    <!-- Header Layout -->
+    <style name="HeaderLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <!--<item name="android:background">@drawable/header1</item>-->
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="HeaderTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/HeaderTitleTextColor</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="HeaderSubTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/HeaderSubTitleTextColor</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+    </style>
+
+    <style name="ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="Menu">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/img_menu</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+
+    <style name="FooterLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:background">@drawable/footer1</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="MiddleLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <!-- List View Control -->
+    <drawable name="ListItemSelected">@drawable/footer1</drawable>
+    <color name="ListItemNormal">#00000000</color>
+
+    <style name="ItemsList" parent="@android:style/Widget.ListView">
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:listSelector">@drawable/listselector</item>
+        <item name="android:divider">#66ffffff</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+</resources>

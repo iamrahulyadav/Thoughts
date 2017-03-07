@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/layParent">
+
+    <ImageView
+            android:id="@+id/imgBack"
+            style="@style/BackImage"
+            android:contentDescription="Background image"/>
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/layHeader"-->
+    <!--style="@style/HeaderLayout">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvTitle"-->
+    <!--style="@style/HeaderTitle"-->
+    <!--android:text="@string/HeaderTextMainListingRecent"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvSmallDesc"-->
+    <!--style="@style/HeaderSubTitle"-->
+    <!--android:text="@string/HeaderTextMainSubHeader"/>-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/btnMenu"-->
+    <!--style="@style/Menu"/>-->
+    <!--</RelativeLayout>-->
+
+
+
+    <ListView
+            android:id="@android:id/list"
+            style="@style/ItemsList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/layForBannerAd"
+            android:layout_alignParentLeft="true"
+            >
+    </ListView>
+
+    <LinearLayout
+            android:id="@+id/layForBannerAd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:gravity="center">
+
+    </LinearLayout>
+
+    <ProgressBar
+            android:id="@+id/prgLoading"
+            style="@style/ProgressBar"/>
+</RelativeLayout><!-- From: file:/F:/Rudrik/GRADLE/Thoughts/thoughts/src/main/res/layout/categorylistingfragmentlayout.xml -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--// If you like this app-->
+    <!--// 1. Be social-->
+    <!--// 2. Rate on play store-->
+    <!--// 3. Tell your friends-->
+    <!--// 4. Give us your feedback-->
+    <!--// 5. Buy PRO version-->
+    <string-array name="arr_default_menu_options">
+        <item>Rate on store</item>
+        <item>Tell your friends</item>
+        <item>Give us your feedback</item>
+    </string-array>
+</resources>

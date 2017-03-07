@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_category">
+        <item>@string/all</item>
+        <item>@string/advice</item>
+        <item>@string/anger_self_control</item>
+        <item>@string/attitude</item>
+        <item>@string/belief</item>
+        <item>@string/character</item>
+        <item>@string/charity</item>
+        <item>@string/compromise</item>
+        <item>@string/confidence</item>
+        <item>@string/conscience</item>
+        <item>@string/conversation</item>
+        <item>@string/courage</item>
+        <item>@string/creativity</item>
+        <item>@string/crime</item>
+        <item>@string/criticism</item>
+        <item>@string/customers</item>
+        <item>@string/desire</item>
+        <item>@string/discipline</item>
+        <item>@string/dream</item>
+        <item>@string/duty</item>
+        <item>@string/enthusiasm</item>
+        <item>@string/excellence</item>
+        <item>@string/expressions</item>
+        <item>@string/failure</item>
+        <item>@string/faith</item>
+        <item>@string/fear</item>
+        <item>@string/friendship</item>
+        <item>@string/general</item>
+        <item>@string/goal</item>
+        <item>@string/god</item>
+        <item>@string/greatness</item>
+        <item>@string/happiness</item>
+        <item>@string/hard_work</item>
+        <item>@string/honesty</item>
+        <item>@string/hope</item>
+        <item>@string/idea</item>
+        <item>@string/impressions</item>
+        <item>@string/job</item>
+        <item>@string/knowledge</item>
+        <item>@string/listening</item>
+        <item>@string/leadership</item>
+        <item>@string/learning</item>
+        <item>@string/lethargy</item>
+        <item>@string/life</item>
+        <item>@string/luck</item>
+        <item>@string/management</item>
+        <item>@string/manners</item>
+        <item>@string/mind</item>
+        <item>@string/mistakes</item>
+    </string-array>
+</resources>

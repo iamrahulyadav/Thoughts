@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/layParent">
+
+    <ImageView
+            android:id="@+id/imgBack"
+            style="@style/BackImage"
+            android:contentDescription="Background image"/>
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/layHeader"-->
+    <!--style="@style/HeaderLayout">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvTitle"-->
+    <!--style="@style/HeaderTitle"-->
+    <!--android:text="@string/HeaderTextMainListingRecent"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvSmallDesc"-->
+    <!--style="@style/HeaderSubTitle"-->
+    <!--android:text="@string/HeaderTextMainSubHeader"/>-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/btnMenu"-->
+    <!--style="@style/Menu"/>-->
+    <!--</RelativeLayout>-->
+
+    <LinearLayout
+            android:id="@+id/layFooter"
+            style="@style/FooterLayout">
+
+        <Button
+                android:id="@+id/btnRecentList"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/footerselection"
+                android:text="Recent"
+                android:textSize="12sp"
+                android:textColor="@color/HeaderSubTitleTextColor"/>
+
+        <Button
+                android:id="@+id/btnPopularList"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:text="Popular"
+                android:textSize="12sp"
+                android:textColor="@color/HeaderSubTitleTextColor"/>
+
+        <Button
+                android:id="@+id/btnFavList"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:text="My Favourites"
+                android:textSize="12sp"
+                android:textColor="@color/HeaderSubTitleTextColor"/>
+    </LinearLayout>
+
+    <ListView
+            android:id="@android:id/list"
+            style="@style/ItemsList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/layForBannerAd"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/layHeader">
+    </ListView>
+
+    <LinearLayout
+            android:id="@+id/layForBannerAd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layFooter"
+            android:orientation="vertical"
+            android:gravity="center">
+
+    </LinearLayout>
+
+    <ProgressBar
+            android:id="@+id/prgLoading"
+            style="@style/ProgressBar"/>
+</RelativeLayout><!-- From: file:/F:/Rudrik/GRADLE/Thoughts/thoughts/src/main/res/layout/mainlistingfragmentlayout.xml -->

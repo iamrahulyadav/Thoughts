@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/TranslucentWhite"></solid>
+    <stroke
+            android:color="@color/HeaderSubTitleTextColor"
+            android:dashGap="5dp"
+            android:dashWidth="8dp"
+            android:width="1.5dp"></stroke>
+
+</shape><!-- From: file:/F:/Rudrik/GRADLE/Thoughts/thoughts/src/main/res/drawable/popupback.xml -->
