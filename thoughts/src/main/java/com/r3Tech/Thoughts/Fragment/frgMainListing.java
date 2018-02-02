@@ -5,16 +5,18 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.*;
+import android.widget.AbsListView;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
-import com.mqnvnfx.itwsdvr70223.AdListener;
 import com.mqnvnfx.itwsdvr70223.AdView;
-import com.mqnvnfx.itwsdvr70223.MA;
-
 import com.r3Tech.Thoughts.Activity.actDetailsView;
 import com.r3Tech.Thoughts.Activity.actMainListing;
 import com.r3Tech.Thoughts.Adapter.adptMainListing;
@@ -50,7 +52,6 @@ public class frgMainListing extends ListFragment implements AbsListView.OnScroll
 
     // -------- AD -------
     private int AP_AD_ITEM_SELECTED_COUNT = 0;
-    MA AP_MA_SMARTWALL;
     LinearLayout AP_BANNER_AD_PARENT;
     AdView AP_BANNER_AD;
     // -------- AD -------
@@ -94,8 +95,8 @@ public class frgMainListing extends ListFragment implements AbsListView.OnScroll
         clsGeneral.changeFonts(getActivity().getApplicationContext(), _rLay);
 
         // Display Ads
-        apShowSmartWallAd();
-        apShowBannerAd();
+        AP_BANNER_AD = getActivity().findViewById(R.id.myAdView);
+        AP_BANNER_AD.loadAd();
     }
 
     @Override
@@ -249,103 +250,4 @@ public class frgMainListing extends ListFragment implements AbsListView.OnScroll
                 ((actMainListing) getActivity()).setHeaderText(getResources().getString(R.string.HeaderTextMainListingFavorites));
         }
     }
-
-    // -------- AD -------
-    private void apShowBannerAd() {
-        AP_BANNER_AD_PARENT = (LinearLayout) getActivity().findViewById(R.id.layForBannerAd);
-        AP_BANNER_AD = new AdView(getActivity(), AdView.BANNER_TYPE_IN_APP_AD, AdView.PLACEMENT_TYPE_INTERSTITIAL, false, false, AdView.ANIMATION_TYPE_FADE);
-        AP_BANNER_AD.setAdListener(apBannerAdListener);
-        AP_BANNER_AD_PARENT.addView(AP_BANNER_AD);
-    }
-
-    AdListener.MraidAdListener apBannerAdListener = new AdListener.MraidAdListener() {
-        @Override
-        public void onAdLoadingListener() {
-
-        }
-
-        @Override
-        public void onAdLoadedListener() {
-
-        }
-
-        @Override
-        public void onErrorListener(String s) {
-            Log.i("NBT2", "BANNER ERROR");
-        }
-
-        @Override
-        public void onCloseListener() {
-
-        }
-
-        @Override
-        public void onAdExpandedListner() {
-
-        }
-
-        @Override
-        public void onAdClickListener() {
-
-        }
-
-        @Override
-        public void noAdAvailableListener() {
-            Log.i("NBT2", "BANNER NOT AVAILABLE");
-        }
-    };
-
-    private void apShowSmartWallAd() {
-        AP_AD_ITEM_SELECTED_COUNT++;
-        if (AP_AD_ITEM_SELECTED_COUNT % 5 != 0) return;
-
-        if (AP_MA_SMARTWALL == null)
-            AP_MA_SMARTWALL = new MA(getActivity(), apSmartwallCallbackListener, true);
-
-        AP_MA_SMARTWALL.callSmartWallAd();
-    }
-
-    AdListener apSmartwallCallbackListener = new AdListener() {
-        @Override
-        public void onSmartWallAdShowing() {
-
-        }
-
-        @Override
-        public void onSmartWallAdClosed() {
-
-        }
-
-        @Override
-        public void onAdError(String s) {
-            Log.i("NBT2", "WALL ERROR");
-            if (s.equals("SmartWall Ad already available in cache. Request Ignored.")) {
-                try {
-                    AP_MA_SMARTWALL.showCachedAd(getActivity(), AdType.smartwall);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-
-        @Override
-        public void onSDKIntegrationError(String s) {
-
-        }
-
-        @Override
-        public void onAdCached(AdListener.AdType adType) {
-            try {
-                AP_MA_SMARTWALL.showCachedAd(getActivity(), adType);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-        @Override
-        public void noAdAvailableListener() {
-            Log.i("NBT2", "WALL NOT AVAILABLE");
-        }
-    };
-    // -------- AD -------
 }

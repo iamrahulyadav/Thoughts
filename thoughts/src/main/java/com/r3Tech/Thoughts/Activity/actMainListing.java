@@ -18,6 +18,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.mqnvnfx.itwsdvr70223.AdConfig;
+import com.mqnvnfx.itwsdvr70223.AdListener;
+import com.mqnvnfx.itwsdvr70223.AdView;
+import com.mqnvnfx.itwsdvr70223.Main;
 import com.r3Tech.Thoughts.Adapter.MenuListAdapter;
 import com.r3Tech.Thoughts.Fragment.frgMainListing;
 import com.r3Tech.Thoughts.R;
@@ -25,7 +30,7 @@ import com.r3Tech.Thoughts.Utils.clsGeneral;
 import com.r3Tech.Thoughts.Utils.dlgDefaultMenuAlert;
 
 
-public class actMainListing extends ActionBarActivity {
+public class actMainListing extends ActionBarActivity implements AdListener {
 
     String DISP_MODE = "latest";
 
@@ -43,11 +48,22 @@ public class actMainListing extends ActionBarActivity {
 
     // Activity controls
     TextView TV_HEADER, TV_SUBHEADER;
+    private Main main;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        AdConfig.setAppId(29011);
+        AdConfig.setApiKey("1345103177648703821");
+
+        AdConfig.setCachingEnabled(true);
+        AdConfig.setTestMode(false);
+        AdConfig.setPlacementId(0);
+        AdView.setAdListener(this);
+
         setContentView(R.layout.mainlistinglayout);
+
 
         FRA_MAINLISTING = new frgMainListing();
         CATEGORY = this.getIntent().getExtras().getString(getResources().getString(R.string.category));
@@ -62,6 +78,7 @@ public class actMainListing extends ActionBarActivity {
         TV_SUBHEADER.setText(getResources().getString(R.string.HeaderTextMainSubHeader));
         clsGeneral.changeFonts(getApplicationContext(), TV_HEADER);
         clsGeneral.changeFonts(getApplicationContext(), TV_SUBHEADER);
+        main = new Main(this, this);
     }
 
     private void initialPageControl(Bundle savedInstanceState) {
@@ -168,6 +185,41 @@ public class actMainListing extends ActionBarActivity {
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         DRAWER_TOGGLE.onConfigurationChanged(newConfig);
+    }
+
+    @Override
+    public void onError(ErrorType errorType, String s) {
+
+    }
+
+    @Override
+    public void onAdLoading() {
+
+    }
+
+    @Override
+    public void onAdLoaded() {
+
+    }
+
+    @Override
+    public void onAdExpanded() {
+
+    }
+
+    @Override
+    public void onAdClicked() {
+
+    }
+
+    @Override
+    public void onAdClosed() {
+
+    }
+
+    @Override
+    public void onAdCached(AdConfig.AdType adType) {
+
     }
 
     private class DrawerItemClickListener implements

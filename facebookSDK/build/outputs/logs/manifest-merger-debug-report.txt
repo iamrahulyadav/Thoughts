@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:18:1-23:12
+INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:18:1-23:12
+INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:18:1-23:12
+	package
+		ADDED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:19:11-41
+		INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml
+		INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:18:11-69
+application
+ADDED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:21:5-19
+uses-sdk
+ADDED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:22:5-42
+INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:22:5-42
+INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:22:5-42
+INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:22:5-42
+INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:22:5-42
+	android:targetSdkVersion
+		INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml
+		ADDED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:22:5-42
+		INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml:22:15-40
+		INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml
+		INJECTED from /home/zymr1/Rudrik/GoogleProjects/Thoughts/facebookSDK/src/main/AndroidManifest.xml

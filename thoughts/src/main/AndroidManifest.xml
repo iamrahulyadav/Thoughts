@@ -1,85 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.r3Tech.Thoughts"
-          android:versionCode="2"
-          android:versionName="1.0.0">
+    package="com.r3Tech.Thoughts"
+    android:versionCode="2"
+    android:versionName="1.0.0">
 
-    <uses-sdk android:minSdkVersion="11"/>
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
-    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- Optional permission -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <application android:icon="@drawable/icon" android:label="@string/app_name"
-                 android:theme="@style/MyTheme">
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme">
 
         <meta-data
-                android:name="com.facebook.sdk.ApplicationId"
-                android:value="@string/fb_app_id"/>
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fb_app_id" />
         <activity
-                android:name="com.facebook.LoginActivity"
-                android:screenOrientation="portrait"
-                android:theme="@style/MyTheme.NoActionBar"/>
+            android:name="com.facebook.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme.NoActionBar" />
         <meta-data
-                android:name="com.google.android.gms.version"
-                android:value="@integer/google_play_services_version"/>
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <activity
-                android:name=".Activity.actMain"
-                android:label="@string/app_name"
-                android:screenOrientation="portrait"
-                android:theme="@style/MyTheme.NoActionBar">
+            android:name=".Activity.actMain"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-                android:name=".Activity.actMainListing"
-                android:label="@string/app_name"
-                android:screenOrientation="portrait">
-        </activity>
+            android:name=".Activity.actMainListing"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
         <activity
-                android:name=".Activity.actDetailsView"
-                android:label="@string/app_name"
-                android:screenOrientation="portrait">
-        </activity>
+            android:name=".Activity.actDetailsView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
         <activity
-                android:name=".Activity.actAbout"
-                android:label="@string/app_name"
-                android:screenOrientation="portrait">
-        </activity>
-        <activity android:name=".Activity.actCategoryListing"
-                  android:label="@string/app_name"
-                  android:screenOrientation="portrait"></activity>
+            android:name=".Activity.actAbout"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Activity.actCategoryListing"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
 
-        <service android:name=".Utils.svcUpdateUserFBDetailsOnServer"/>
+        <service android:name=".Utils.svcUpdateUserFBDetailsOnServer" />
         <!--airpush Start-->
-        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
-        <meta-data android:name="com.mqnvnfx.itwsdvr70223.APPID" android:value="217378"/>
-        <meta-data android:name="com.mqnvnfx.itwsdvr70223.APIKEY" android:value="android*1346129446702238128"/>
-        <activity android:exported="false" android:name="com.mqnvnfx.itwsdvr70223.AdActivity"
-                  android:configChanges="orientation|screenSize"
-                  android:theme="@android:style/Theme.Translucent"/>
-        <activity android:name="com.mqnvnfx.itwsdvr70223.BrowserActivity"
-                  android:configChanges="orientation|screenSize"/>
-        <activity android:name="com.mqnvnfx.itwsdvr70223.VActivity"
-                  android:configChanges="orientation|screenSize" android:screenOrientation="landscape"
-                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
-        </activity>
-        <service android:name="com.mqnvnfx.itwsdvr70223.LService" android:exported="false"></service>
-        <receiver android:name="com.mqnvnfx.itwsdvr70223.BootReceiver" android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
-            </intent-filter>
-        </receiver>
+
+        <activity
+            android:name="com.mqnvnfx.itwsdvr70223.AdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- End of the required declaration -->
+        <activity
+            android:name="com.mqnvnfx.itwsdvr70223.BrowserActivity"
+            android:configChanges="orientation|screenSize" />
         <!--airpushend-->
     </application>
 </manifest>

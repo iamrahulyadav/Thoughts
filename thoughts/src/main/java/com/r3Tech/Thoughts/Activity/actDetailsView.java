@@ -103,7 +103,8 @@ public class actDetailsView extends ActionBarActivity implements OnClickListener
 
         // Display Ads
         //        showSmartWallAd();
-        apShowBannerAd();
+        AP_BANNER_AD = findViewById(R.id.myAdView);
+        AP_BANNER_AD.loadAd();
 
 //        datakey = new ArrayList<Integer>();
 //        datakey.add(91);
@@ -460,49 +461,4 @@ public class actDetailsView extends ActionBarActivity implements OnClickListener
             }
         }
     }
-
-    // -------- AD -------
-    private void apShowBannerAd() {
-        AP_BANNER_AD_PARENT = (LinearLayout) findViewById(R.id.layForBannerAd);
-        AP_BANNER_AD = new AdView(this, AdView.BANNER_TYPE_IN_APP_AD, AdView.PLACEMENT_TYPE_INTERSTITIAL, false, false, AdView.ANIMATION_TYPE_FADE);
-        AP_BANNER_AD.setAdListener(apBannerAdListener);
-        AP_BANNER_AD_PARENT.addView(AP_BANNER_AD);
-    }
-
-    AdListener.MraidAdListener apBannerAdListener = new AdListener.MraidAdListener() {
-        @Override
-        public void onAdLoadingListener() {
-
-        }
-
-        @Override
-        public void onAdLoadedListener() {
-
-        }
-
-        @Override
-        public void onErrorListener(String s) {
-            Log.i("NBT2", "INNER BANNER ERROR");
-        }
-
-        @Override
-        public void onCloseListener() {
-
-        }
-
-        @Override
-        public void onAdExpandedListner() {
-
-        }
-
-        @Override
-        public void onAdClickListener() {
-
-        }
-
-        @Override
-        public void noAdAvailableListener() {
-            Log.i("NBT2", "INNER BANNER NOT AVAILABLE");
-        }
-    };
 }

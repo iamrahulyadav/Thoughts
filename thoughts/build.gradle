@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "23.0.0"
+    compileSdkVersion 26
+    buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.r3Tech.Thoughts"
-        minSdkVersion 10
-        targetSdkVersion 10
+        minSdkVersion 19
+        targetSdkVersion 22
     }
 
     buildTypes {
@@ -16,6 +16,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {
